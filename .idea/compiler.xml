@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Orozco_Mod_1_csd430" />
+        <module name="Orozco_Module_2_csd430" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Orozco_Mod_2_csd430" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
