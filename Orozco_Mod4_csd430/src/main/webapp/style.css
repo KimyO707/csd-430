@@ -1,0 +1,41 @@
+/* Module 4.2 Programming Assignment */
+/* Kimberly Orozco, April 12 2026 */
+/* Purpose: make a page with a table holding data [I USED THE SAME CSS AS MODULE 2 ASSIGNMENT*/
+
+body {
+    font-family: "Comic Sans MS", "Poppins", sans-serif; /* I spent AGES getting this font and its so worth */
+    background: linear-gradient(to right, #ffdde1, #cf6976); /* background plain pink was too plain so I thought gradient would be kewl */
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4d6d;
+    text-decoration: underline; /* without the underline it didn't pop as much */
+}
+h2 {
+    color: #cb1034;
+}
+
+table {
+    margin: 30px auto; /* centering it and putting some space */
+    border-collapse: collapse; /* gone double border */
+    width: 65%;
+    background-color: #fff0f6;
+    border-radius: 12px; /* round it up */
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px; /* space for my rows */
+    border-bottom: 1px solid #ffc2d1;
+}
+
+th {
+    background-color: #ff8fab; /* header */
+    color: white;
+}
+
+tr:hover {
+    background-color: #ffe5ec; /* I love hover effects */
+}
