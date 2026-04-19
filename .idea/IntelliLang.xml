@@ -20,6 +20,11 @@
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("update").withParameters("java.sql.Connection", "java.lang.String", "java.lang.Object...").definedInClass("org.apache.commons.dbutils.AsyncQueryRunner"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
+      <display-name>Class.forName (java.lang)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("forName").withParameters("java.lang.String").definedInClass("java.lang.Class"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
       <display-name>Jodd (jodd.db)</display-name>
       <single-file value="true" />
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").withParameterCount(1).definedInClass("jodd.db.DbQuery"))]]></place>
