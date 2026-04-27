@@ -2,13 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>Orozco_Module_6_csd430</artifactId>
-  <packaging>pom</packaging>
-    <modules>
-        <module>Orozco_Module_7_csd430</module>
-    </modules>
-    <version>1.0-SNAPSHOT</version>
-  <name>Orozco_Module_6_csd430 Maven Webapp</name>
+  <artifactId>Orozco_Mod_7_csd430</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Orozco_Mod_7_csd430 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -19,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>Orozco_Module_6_csd430</finalName>
+    <finalName>Orozco_Mod_7_csd430</finalName>
   </build>
 </project>
